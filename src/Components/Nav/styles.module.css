@@ -1,0 +1,20 @@
+.nav{
+    width: 100%;
+    background-color: rgb(41, 62, 119);
+    color: #fff;
+    display: grid;
+    place-content: center;
+    height: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 80px));
+    
+}
+
+.div{
+    cursor: pointer;
+    font-size: 2rem
+}
+
+.div:hover{
+    text-decoration: underline;
+    transition: text-decoration 1s;
+}

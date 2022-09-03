@@ -1,0 +1,30 @@
+.div{
+    position: fixed;
+    width: 90%;
+    max-width: 400px;
+    background-color: aqua;
+    border: 2px solid #000;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input{
+    width: 90%;
+    height: 25px;
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+
+}
