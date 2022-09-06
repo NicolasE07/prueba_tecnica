@@ -1,0 +1,23 @@
+.Button{
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    place-content: center;
+    padding: 15px 0;
+}
+
+.buttons{
+    max-width: 100px;
+    min-width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: wrap;
+    
+    color: #000;
+}
+
+
+.buttons svg{
+    color: #000;
+    font-size: 2rem;
+}
